@@ -5,7 +5,7 @@ import './App.css'
 import Navbar from './components/Navbar/Navbar'
 import About from './components/About/About'
 import Footer from './components/footer/Footer'
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import { createBrowserRouter, createHashRouter, RouterProvider } from 'react-router-dom'
 import Layout from './components/Layout/Layout'
 import Portfolio from './components/Portfolio/Portfolio'
 import Contact from './components/Contact/Contact'
@@ -18,7 +18,7 @@ import Framework from './components/Framework/Framework'
 
 function App() {
   const [count, setCount] = useState(0)
-   const router = createBrowserRouter([
+   const router = createHashRouter([
        {path: '/', element: <Layout />,
         children: [
         { index: true, element: <Framework /> }, // الصفحة الرئيسية
