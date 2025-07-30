@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.first-section {
+  background-color:  rgb(13, 156, 77);
+  padding: 40px 0px;
+  padding-top: 100px;
+}
+
+.navbar {
+  background-color: rgb(37, 54, 84);
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+
+}
+
+
+
+#root {
+  padding: 0 !important;
+  margin: 0 !important;
+
+}
+
+.intro-sec {
+  font-size: 28.21px;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  line-height: 33.852px;
+}
+
+.end-section {
+  background-color: rgb(37, 54, 84);
+  padding: 20px 0px;
+}
+
+.end-footer {
+  background-color: rgb(35, 44, 59);
+  padding: 20px 0px;
+}
+
+.intro-port {
+  font-size: 28.21px;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  line-height: 33.852px;
+  color: rgb(43, 42, 80);
+}
+
+.port-img {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.port-img img {
+  display: block;
+  width: 100%;
+  /* تأكد إن الصورة واخدة عرض الأب */
+  height: auto;
+}
+
+.port-img .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(26, 188, 156, 0.9);
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+}
+
+.port-img:hover .overlay {
+  opacity: 1;
+}
+
+.port-img .overlay i {
+  font-size: 5rem;
+}
+
+
+.nav-link.active {
+  font-weight: bold;
+  background-color: rgb(13, 156, 77);
+  border-radius: 5px;
+
+}
+
+.font-nav {
+  font-size: 18.21px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  line-height: 37.389px;
+}
+
+.str-fm {
+  font-size: 28.926px;
+  font-weight: 900;
+  font-family: "Poppins", sans-serif;
+  line-height: 37.389px;
+}
+
+.info-contact {
+  background-color: rgb(255, 255, 255);
+  padding: 20px 0px;
+   padding-top: 100px;
+}
+
+.contact-form .form-control {
+  border: none;
+  border-bottom: 2px solid #444;
+  border-radius: 0;
+  box-shadow: none;
+  outline: none;
+  background-color: transparent;
+  padding-left: 0;
+  margin-bottom: 15px;
+  /* المسافة بين كل input */
+
+
+}
+
+.contact-form .form-control:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  border-color: #333533 !important;
+  /* يفضل اللون اللي انت عامله */
+}
+
+
+.btnpm {
+  background-color: rgb(26, 188, 156);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  transition: 0.3s;
+  width: fit-content;
+  align-self: flex-start;
+}
+
+.btnpm:hover {
+  background-color: #0d6efd;
+  opacity: 0.9;
+}
+
+.info-frame {
+  background-color: rgb(13, 156, 77);
+  padding: 20px 0px;
+  color: aliceblue;
+  padding-top: 100px;
+}
+
+.title-portfolio{
+  padding-top: 100px;
+}
+/* ما تنساش ي حمو تظبط النافبار */
